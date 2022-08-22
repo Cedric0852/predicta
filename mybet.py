@@ -12,8 +12,11 @@ import keyring
 from requestpstatus import requeststatus ,data1 ,projecttoken
 from getdata import getingcsv
 
+
+#Proccesing and Sending Email
+
 #sending email
-if st.button("VIEW PREDICTION BY PREDICTA V 1.0"):
+if st.button("VIEW PREDICTION"):
     st.header("PREDICTION OF THE DAY")
     tote=getingcsv(getingcsv)
     tote.columns=['Country','League','Date','Team','Chance','Bet','Percentage']
@@ -45,8 +48,7 @@ if st.button("VIEW PREDICTION BY PREDICTA V 1.0"):
     st.write(" ")
     time.sleep(2)
     st.success("Predictions ready Good luck")
-    st.info("Gamble responsibly ,FOR EDUCATIONAL PURPOSES ONLY (+18)")
-    st.info("Predicta 2022")
+    st.info("BE RESPONSIBLE GAMBLE ,FOR EDUCATIONAL PURPOSES ONLY")
     st.balloons()
     
     
