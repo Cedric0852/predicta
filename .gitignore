@@ -160,6 +160,7 @@ cython_debug/
 *.json
 cred.json
 b_requirements.txt
+.streamlit
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
