@@ -1,1 +1,6 @@
 .env
+.venv
+cred.json
+b_requirements.txt
+*.csv
+__pycache__
