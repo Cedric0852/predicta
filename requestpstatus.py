@@ -7,17 +7,11 @@ from dotenv.main import load_dotenv
 from pathlib import Path
 load_dotenv()
 key=os.environ["api_key"]
-###
-#making api call 
-# params = {
-#   "api_key": {api_key},
-#   "offset": "0",
-#   "include_options": "0"
-# }
-# Requesting project status
+status_url=os.environ["status_url"]
+
 
 def requeststatus(data):
-    r = requests.get("https://www.parsehub.com/api/v2/projects/tV3pTmaTkwwL?api_key="+key+"&offset=0&include_options=0")
+    r = requests.get(status_url+"="+key+"&offset=0&include_options=0")
     return r.text
    
 def data1(data1):
