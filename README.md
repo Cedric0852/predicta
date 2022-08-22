@@ -6,4 +6,6 @@ https://cedric0852-predicta-mybet-4uh8uh.streamlitapp.com/
 
 Not a Guaranty use your own logic 
 
-# ENJOY
+# Made with :heart: in Rwanda
+
+
