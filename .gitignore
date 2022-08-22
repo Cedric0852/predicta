@@ -159,6 +159,7 @@ cython_debug/
 *.csv
 *.json
 cred.json
+b_requirements.txt
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
