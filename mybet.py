@@ -1,3 +1,5 @@
+from ipaddress import collapse_addresses
+from unicodedata import name
 import streamlit as st
 import requests
 import json
@@ -14,14 +16,16 @@ from getdata import getingcsv
 
 
 #Proccesing and Sending Email
-st.header("PREDICTA V1.0 ")
+st.header("PREDICTA V1.1 ")
 #sending email
 if st.button("VIEW PREDICTION"):
     st.header("PREDICTION OF THE DAY")
     tote=getingcsv(getingcsv)
     tote.columns=['Country','League','Date','Team','Chance','Bet','Percentage']
+    name=['Team','Chance','Bet','Percentage','Country','League','Date']
+    tote.dropna()
     time.sleep(2)
-    reteam=tote.dropna()
+    reteam=tote.reindex(columns=name)
     time.sleep(2)
     over85w=reteam[(reteam['Percentage'] >= "85")&(reteam['Chance'] == 'Winner')]
     #wining over 80% chance but under 85% AKA SILVER
