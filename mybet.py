@@ -16,7 +16,7 @@ from getdata import getingcsv
 
 
 #Proccesing and Sending Email
-st.header("PREDICTA V1.2 ")
+st.header("PREDICTA V1.3 ")
 #sending email
 
 if st.button("VIEW PREDICTION"):
