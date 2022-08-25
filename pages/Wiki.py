@@ -1,2 +1,12 @@
 import streamlit as st
-st.header("PREDICTA info page ")
+st.header("PREDICTA INFO PAGE ")
+st.title("GOLD")
+st.write("Teams that have Wining over 85% confidance level(chance) ,it is recommended to choose either 1 or 2 teams to increase the chance")
+st.title("SILVA")
+st.write("Teams that have wining over 80% but under 85% confidance level(chance) ,it is recommended to choose either 1 or 2 teams to increase the chance")
+st.title("BRONZE")
+st.write("Teams that have Double chance(Wining or Tie) over 85% confidance level(chance) ,it is recommended to choose either 1 or 2 teams to increase the chance")
+st.title("PLATINUM")
+st.write("Teams that have Double chance(Wining or Tie) over 80% but under 85% confidance level(chance) ,it is recommended to choose either 1 or 2 teams to increase the chance")
+st.header("")
+st.title("Good luck, this tool is intended to help you with your analysis do not use it blindly")
