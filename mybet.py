@@ -17,7 +17,7 @@ from getdata import getingcsv
 
 #Proccesing and Sending Email
 st.header("PREDICTA V1.5.3")
-st.write(" AUTOMATIC UPDATE EVERY 9 40 AM ")
+st.write(" AUTOMATIC UPDATE EVERY 9:40 AM GMT+2 ")
 #sending email
 
 if st.button("VIEW PREDICTION"):
